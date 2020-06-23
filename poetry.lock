@@ -212,10 +212,10 @@ description = "Microsoft Azure Blob Storage Client Library for Python"
 name = "azure-storage-blob"
 optional = false
 python-versions = "*"
-version = "12.3.1"
+version = "12.3.2"
 
 [package.dependencies]
-azure-core = ">=1.4.0,<2.0.0"
+azure-core = ">=1.6.0,<2.0.0"
 cryptography = ">=2.1.4"
 msrest = ">=0.6.10"
 
@@ -2171,6 +2171,7 @@ version = "0.7.26"
 
 [package.source]
 reference = "rasa-pypi"
+type = "legacy"
 url = "https://pypi.rasa.com/simple"
 
 [[package]]
@@ -3442,8 +3443,8 @@ azure-core = [
     {file = "azure_core-1.6.0-py2.py3-none-any.whl", hash = "sha256:7bf695b017acea3da28e0390a2dea5b7e15a9fa3ef1af50ff020bcfe7dacb6a4"},
 ]
 azure-storage-blob = [
-    {file = "azure-storage-blob-12.3.1.zip", hash = "sha256:02030d657914c221961f6e7ebafc6ec36761649c04396b368e0b102cbcdcf26c"},
-    {file = "azure_storage_blob-12.3.1-py2.py3-none-any.whl", hash = "sha256:e797cb23186e23791f30d424473245383d24d16451a66c6556ca7c7c96678541"},
+    {file = "azure-storage-blob-12.3.2.zip", hash = "sha256:b99ce18c5063b22a988e6e997a491aab6c7c4dd62d1424b4e2b934e6ef104356"},
+    {file = "azure_storage_blob-12.3.2-py2.py3-none-any.whl", hash = "sha256:8a02a33cd28a16963274dc928960642e99ec19cad27166fb386ebcc0f1216706"},
 ]
 babel = [
     {file = "Babel-2.8.0-py2.py3-none-any.whl", hash = "sha256:d670ea0b10f8b723672d3a6abeb87b565b244da220d76b4dba1b66269ec152d4"},
@@ -4562,6 +4563,7 @@ regex = [
     {file = "regex-2020.5.14.tar.gz", hash = "sha256:ce450ffbfec93821ab1fea94779a8440e10cf63819be6e176eb1973a6017aff5"},
 ]
 requests = [
+    {file = "requests-2.23.0-py2.7.egg", hash = "sha256:5d2d0ffbb515f39417009a46c14256291061ac01ba8f875b90cad137de83beb4"},
     {file = "requests-2.23.0-py2.py3-none-any.whl", hash = "sha256:43999036bfa82904b6af1d99e4882b560e5e2c68e5c4b0aa03b655f3d7d73fee"},
     {file = "requests-2.23.0.tar.gz", hash = "sha256:b3f43d496c6daba4493e7c431722aeb7dbc6288f52a6e04e7b6023b0247817e6"},
 ]
